@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="security-badge"></div>
+        <h1>Password Strength Analyzer</h1>
+        <div class="feature-badges">
+            <span class="feature-badge">🛡️ Secure</span>
+            <span class="feature-badge">⚡ Instant</span>
+            <span class="feature-badge">🎯 Accurate</span>
+        </div>
+        <p class="subtitle"><span class="typing-text" id="typingText"></span></p>
+        
+        <div class="input-group">
+            <label for="password">Enter Password</label>
+            <div class="password-input-wrapper">
+                <input type="password" id="password" placeholder="Type your password here...">
+                <button class="toggle-password" id="togglePassword">👁️</button>
+            </div>
+        </div>
+
+        <button class="analyze-btn" id="analyzeBtn">Analyze Password</button>
+
+        <div class="result-container" id="resultContainer">
+            <div class="strength-label" id="strengthLabel">WEAK</div>
+            
+            <div class="strength-bar-container">
+                <div class="strength-bar" id="strengthBar"></div>
+            </div>
+
+            <div class="score-display">
+                <span class="score-label">Security Score</span>
+                <span class="score-value" id="scoreValue">0/100</span>
+            </div>
+
+            <div class="details" id="details">
+                <div class="feedback-section">
+                    <div class="feedback-title">Analysis</div>
+                    <div id="feedbackList"></div>
+                </div>
+
+                <div class="entropy-display">
+                    <div class="entropy-item">
+                        <div class="entropy-label">Entropy</div>
+                        <div class="entropy-value" id="entropyValue">0 bits</div>
+                    </div>
+                    <div class="entropy-item">
+                        <div class="entropy-label">Crack Time</div>
+                        <div class="entropy-value" id="crackTime">Instant</div>
+                    </div>
+                    <div class="entropy-item">
+                        <div class="entropy-label">Charset Size</div>
+                        <div class="entropy-value" id="charsetSize">0</div>
+                    </div>
+                    <div class="entropy-item">
+                        <div class="entropy-label">Uniqueness</div>
+                        <div class="entropy-value" id="uniqueness">0%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p class="footer-text">© 2026 Password Analyzer. All Rights Reserved.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
