@@ -12,20 +12,7 @@ A modern, professional password strength analyzer with advanced mathematical ana
 - **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
 
 ## Live Demo 🚀
-
-You can host this on GitHub Pages:
-
-1. Upload all files to your repository
-2. Go to repository Settings → Pages
-3. Select main branch as source
-4. Your site will be live at `https://yourusername.github.io/repository-name`
-
-## Files 📁
-
-- `index.html` - Main HTML structure
-- `style.css` - All styling and animations
-- `script.js` - Password analysis logic and UI interactions
-- `README.md` - This file
+**[View Live Project](https://djidelabdocs50-pixel.github.io/pstrength/)**
 
 ## How It Works 🔬
 
